@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1-3 ls",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ls",
+            "args": ["."],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "1-3_ls"
+        },
+        {
+            "name": "1-4 copy",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/copy",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "1-4_copy"
+        }
+    ]
+}

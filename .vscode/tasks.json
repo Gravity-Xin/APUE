@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1-3_ls",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "-I",
+                "./include",
+                "-I",
+                "./lib",
+                "-o",
+                "ls",
+                "1-3/ls.cpp"
+            ]
+        },
+        {
+            "label": "1-4_copy",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "-I",
+                "./include",
+                "-I",
+                "./lib",
+                "-o",
+                "copy",
+                "1-4/copy.cpp"
+            ]
+        }
+    ]
+}
