@@ -29,6 +29,19 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "1-4_copy"
+        },
+        {
+            "name": "1-5 copy",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/copy_2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "1-5_copy"
         }
     ]
 }

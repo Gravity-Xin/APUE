@@ -32,6 +32,21 @@
                 "copy",
                 "1-4/copy.cpp"
             ]
+        },
+        {
+            "label": "1-5_copy",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "-I",
+                "./include",
+                "-I",
+                "./lib",
+                "-o",
+                "copy_2",
+                "1-5/copy.cpp"
+            ]
         }
     ]
 }
